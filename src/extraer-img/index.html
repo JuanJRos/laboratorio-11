@@ -11,10 +11,16 @@
   <body>
     <main class="main">
       <div class="root">
-        <h1>Selecciona una opción</h1>
-        <button><a href="/src/validar-iban/index.html">Validar IBAN</a></button>
-        <button><a href="/src/extraer-img/index.html">Extraer Imágenes</a></button>
+        <h1>Pegue el HTML</h1>
+        <div>
+          <textarea id="code-html" name="code-html"></textarea>
+        </div>
+        <div>
+          <button id="button">Extraer Imagenes</a></button>
+        </div>
+        <div id="img-list"></div>
       </div>
     </main>
+    <script type="module" src="extraer-img.ts"></script>
   </body>
 </html>

@@ -11,10 +11,14 @@
   <body>
     <main class="main">
       <div class="root">
-        <h1>Selecciona una opción</h1>
-        <button><a href="/src/validar-iban/index.html">Validar IBAN</a></button>
-        <button><a href="/src/extraer-img/index.html">Extraer Imágenes</a></button>
+        <h1>Introduzca el IBAN</h1>
+        <div>
+          <input id="iban" type="text" name="iban">
+          <button id="button">Comprobar</a></button>
+        </div>
+        <div id="iban-info" class="iban-info"></div>
       </div>
     </main>
+    <script type="module" src="validar-iban.ts"></script>
   </body>
 </html>
