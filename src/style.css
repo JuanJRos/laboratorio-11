@@ -76,10 +76,18 @@ input, textarea {
     font-family: var(--font-family);
 }
 
-input[type="text"], input[type="number"], textarea {
+input[type="text"], input[type="number"]{
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 8px;
+}
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    height: 400px;
+    width: 400px;
 }
 
 .div-info, .div-img{
